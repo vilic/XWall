@@ -56,9 +56,6 @@
     <Setting Name="SshAutoReconnect" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
-    <Setting Name="OnlineRulesUrl" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">https://raw.github.com/vilic/x-wall/master/rules/rules-v2</Value>
-    </Setting>
     <Setting Name="OnlineRulesFileName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">online-rules</Value>
     </Setting>
@@ -92,17 +89,8 @@
     <Setting Name="OriginalProxies" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="FeedbackEmail" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">i@vilic.info</Value>
-    </Setting>
     <Setting Name="WebsiteUrl" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">http://x-wall.org</Value>
-    </Setting>
-    <Setting Name="UpdateInstallerUrl" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">https://raw.github.com/vilic/x-wall/master/release/x-wall-setup.exe</Value>
-    </Setting>
-    <Setting Name="OnlineVersionUrl" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">https://raw.github.com/vilic/x-wall/master/release/version</Value>
+      <Value Profile="(Default)">https://github.com/lunarlove/XWall</Value>
     </Setting>
     <Setting Name="UpdateInstallerName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">setup.exe</Value>
@@ -132,7 +120,7 @@
       <Value Profile="(Default)">submit-new-rule-toggle</Value>
     </Setting>
     <Setting Name="ShowUrlInfoUrl" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">http://local.x-wall.org:14220/url-info.html</Value>
+      <Value Profile="(Default)">http://localhost:14220/url-info.html</Value>
     </Setting>
     <Setting Name="PrivoxyTemplatesFolderName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">privoxy-templates\</Value>
@@ -233,9 +221,6 @@
     <Setting Name="GaFolderName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">goagent\</Value>
     </Setting>
-    <Setting Name="UpdateFullInstallerUrl" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">https://raw.github.com/vilic/x-wall/master/release/x-wall-setup-full.exe</Value>
-    </Setting>
     <Setting Name="GaProfile" Type="System.String" Scope="User">
       <Value Profile="(Default)">google_hk</Value>
     </Setting>
@@ -259,6 +244,18 @@
     </Setting>
     <Setting Name="ErrorReportUrl" Type="System.String" Scope="Application">
       <Value Profile="(Default)">http://xwallstats.sinaapp.com/rpt.php</Value>
+    </Setting>
+    <Setting Name="FeedbackEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">team@lunatech.me</Value>
+    </Setting>
+    <Setting Name="OnlineRulesUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://raw.github.com/lunarlove/x-wall/master/rules/rules-v2</Value>
+    </Setting>
+    <Setting Name="OnlineVersionUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://raw.github.com/vilic/x-wall/master/release/version-v2.xml</Value>
+    </Setting>
+    <Setting Name="SshUsePrivateKeyLogin" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
     </Setting>
   </Settings>
 </SettingsFile>
